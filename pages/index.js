@@ -12,8 +12,7 @@ const Page = () => {
         mb={6}
       >
         <h1>
-          Hello World I am learning Frontend Development from fullStack
-          Developer based in Japan.
+          Hello World, I am learning Frontend Development from Craftzdog.
         </h1>
       </Box>
       <Box display={{ md: 'flex' }}>
@@ -21,7 +20,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Rhaqim
           </Heading>
-          <p>Learning, gamer, developer</p>
+          <p>Learner, Gamer, Developer...</p>
         </Box>
       </Box>
     </Container>
