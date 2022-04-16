@@ -14,7 +14,7 @@ const components = {
     variants: {
       'section-title': {
         textDecoration: 'underline',
-        fintSize: 20,
+        fontSize: 20,
         textUnderlineOffset: 6,
         textDecorationColor: '#525252',
         textDecorationThickness: 4,
@@ -32,7 +32,11 @@ const components = {
 }
 
 const fonts = {
-  heading: 'M PLUS Rounded ic'
+  heading: "'M PLUS Rounded 1c'"
+}
+
+const colors = {
+  grassTeal: '#88ccca'
 }
 
 const config = {
@@ -40,11 +44,5 @@ const config = {
   useSystemColorMode: true
 }
 
-const colors = {
-  glassTeal: '#88ccca'
-}
-
-const theme = extendTheme(config, styles, components, fonts, colors)
-
-
+const theme = extendTheme({ config, styles, components, fonts, colors })
 export default theme

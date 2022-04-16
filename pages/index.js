@@ -1,5 +1,6 @@
-import { Container, Box, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import { Container, Box, Heading, Image, useColorModeValue, Link } from '@chakra-ui/react'
 import Section from '../components/section'
+import Paragraph from '../components/paragraph'
 
 const Page = () => {
   return (
@@ -43,7 +44,9 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <p>Paragraph</p>
+        <Paragraph>
+          I am a Django Backend Developer transitioning into a fullstack developer. I currently work at <Link href='https://azenia.com'>Azenia</Link> as a backend developer.
+        </Paragraph>
       </Section>
     </Container>
   )
