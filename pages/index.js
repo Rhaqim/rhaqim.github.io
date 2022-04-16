@@ -1,11 +1,12 @@
-import { Container, Box, Heading, Image } from '@chakra-ui/react'
+import { Container, Box, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import Section from '../components/section'
 
 const Page = () => {
   return (
     <Container>
       <Box
         borderRadius="lg"
-        bg="#75339c"
+        bg={useColorModeValue("#75339c", "whiteAlpha.200")}
         p={3}
         align="center"
         color="white"
@@ -38,6 +39,12 @@ const Page = () => {
           />
         </Box>
       </Box>
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          Work
+        </Heading>
+        <p>Paragraph</p>
+      </Section>
     </Container>
   )
 }
