@@ -1,7 +1,6 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
-import Paragraph from '../components/paragraph'
 import { WorkGridItem } from '../components/grid-item'
 import AzeniaLogo from '../public/images/Azenia_logo.png'
 import EquityLogo from '../public/images/Equity_Group_Logo.png'
