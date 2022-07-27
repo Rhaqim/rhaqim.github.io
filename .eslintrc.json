@@ -8,6 +8,7 @@
                 "varsIgnorePattern": "^_",
                 "argsIgnorePattern": "^_"
             }
-        ]
+        ],
+         "react/no-unescaped-entities": 0 
     }
 }
