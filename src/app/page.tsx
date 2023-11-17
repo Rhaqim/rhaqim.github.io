@@ -13,7 +13,7 @@ const inter = Inter({
 export default function Home() {
   return (
     <div>
-      <div className="h-[70px] flex items-center mt-4">
+      <div className="h-[70px] flex items-center">
         <h3
           className={`font-[400px] text-[26px] leading-[28px] ${inter.className}`}
         >
