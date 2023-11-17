@@ -18,7 +18,7 @@ const ToolkitBadge = ({ name, logo }: { name: string; logo: string }) => (
 
 const Toolkits = ({
   toolkits,
-  className = 'grid grid-cols-2 gap-4'
+  className = 'grid grid-cols-3 gap-2'
 }: {
   toolkits: { name: string; logo: string }[]
   className?: string

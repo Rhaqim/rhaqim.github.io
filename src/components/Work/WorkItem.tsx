@@ -19,7 +19,7 @@ const WorkItem: React.FC<WorkItemProps> = ({
 }) => {
   return (
     <div className="flex flex-col md:flex-row items-start justify-between">
-      <div className="mr-4 w-full md:w-[30%]">
+      <div className="mr-4 w-full md:w-[30%] flex flex-col space-y-4">
         <a href={website} target="_blank" rel="noopener noreferrer">
           <Image
             src={`/images/work/${logo}.png`}
@@ -31,7 +31,7 @@ const WorkItem: React.FC<WorkItemProps> = ({
             placeholder="blur"
           />
         </a>
-        <p className="mt-2 text-sm text-blue-500">
+        <p className="mt-2 text-sm text-blue-500 text-center font-bold text-[15px]">
           <a href={website} target="_blank" rel="noopener noreferrer">
             {company}
           </a>

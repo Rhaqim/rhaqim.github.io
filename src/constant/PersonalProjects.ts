@@ -38,6 +38,10 @@ export const personalProjects = [
       {
         name: 'Github',
         logo: 'github'
+      },
+      {
+        name: 'VC Code',
+        logo: 'vscode'
       }
     ],
     images: ['portfolio']
@@ -48,7 +52,7 @@ export const personalProjects = [
       'A prototype restaurant review platform that allows users to review restaurants and earn rewards. deployed on Vercel.',
     link: 'https://thecommune.vercel.app/',
     github: 'https://github.com/Rhaqim/thecommune',
-    tags: ['Restaurant', 'Review', 'Web App'],
+    tags: ['Restaurant', 'Review', 'Web App', '3D', 'Frontend'],
     toolkits: [
       {
         name: 'React',
@@ -81,6 +85,10 @@ export const personalProjects = [
       {
         name: 'Github',
         logo: 'github'
+      },
+      {
+        name: 'VC Code',
+        logo: 'vscode'
       }
     ],
     images: ['portfolio']
@@ -91,7 +99,7 @@ export const personalProjects = [
       'The backend for The Commune, a prototype restaurant review platform that allows users to review restaurants and earn rewards. deployed on Vercel.',
     link: null,
     github: 'https://github.com/Rhaqim/thecommune-gobackend',
-    tags: ['Restaurant', 'Review', 'Web App'],
+    tags: ['Restaurant', 'Review', 'Backend'],
     toolkits: [
       {
         name: 'Go',
@@ -108,6 +116,10 @@ export const personalProjects = [
       {
         name: 'Github',
         logo: 'github'
+      },
+      {
+        name: 'VC Code',
+        logo: 'vscode'
       }
     ],
     images: ['portfolio']
@@ -151,6 +163,10 @@ export const personalProjects = [
       {
         name: 'Github',
         logo: 'github'
+      },
+      {
+        name: 'VC Code',
+        logo: 'vscode'
       }
     ],
     images: ['portfolio']
@@ -172,12 +188,20 @@ export const personalProjects = [
         logo: 'linux'
       },
       {
+        name: 'Solidity',
+        logo: 'solidity'
+      },
+      {
         name: 'Git',
         logo: 'git'
       },
       {
         name: 'Github',
         logo: 'github'
+      },
+      {
+        name: 'VC Code',
+        logo: 'vscode'
       }
     ],
     images: ['portfolio']

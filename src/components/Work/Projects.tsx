@@ -26,7 +26,7 @@ const Projects: React.FC<ProjectProps> = ({
 }) => {
   return (
     <div className="flex flex-col items-start justify-center w-full my-4">
-      <h3 className="mb-2 text-xl font-[700px] text-[40px] leading-6 my-2">
+      <h3 className="mb-2 text-xl font-[500px] text-[25px] leading-4 md:font-[700px] md:text-[40px] md:leading-6 my-2">
         {title}
       </h3>
       <p className="my-4">{description}</p>
