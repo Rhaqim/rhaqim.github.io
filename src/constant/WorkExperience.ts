@@ -19,7 +19,7 @@ export const workExperiences = [
       'Led frontend development for an intuitive user interface.',
       'Successfully integrated APIs for smooth communication between frontend and backend systems.'
     ],
-    tolkits: [
+    toolkits: [
       {
         name: 'Rust',
         logo: 'rust'
@@ -31,6 +31,10 @@ export const workExperiences = [
       {
         name: 'Node.js',
         logo: 'nodejs'
+      },
+      {
+        name: 'Go',
+        logo: 'go'
       },
       {
         name: 'React',
@@ -57,6 +61,10 @@ export const workExperiences = [
         logo: 'kubernetes'
       },
       {
+        name: 'Jira',
+        logo: 'jira'
+      },
+      {
         name: 'Git',
         logo: 'git'
       },
@@ -65,8 +73,8 @@ export const workExperiences = [
         logo: 'github'
       },
       {
-        name: 'Jira',
-        logo: 'jira'
+        name: 'VC Code',
+        logo: 'vscode'
       }
     ]
   },
@@ -121,16 +129,16 @@ export const workExperiences = [
         logo: 'azure'
       },
       {
-        name: 'Azure DevOps',
-        logo: 'azuredevops'
-      },
-      {
         name: 'Git',
         logo: 'git'
       },
       {
         name: 'Github',
         logo: 'github'
+      },
+      {
+        name: 'VC Code',
+        logo: 'vscode'
       }
     ]
   },
@@ -159,6 +167,10 @@ export const workExperiences = [
       {
         name: 'Github',
         logo: 'github'
+      },
+      {
+        name: 'VC Code',
+        logo: 'vscode'
       }
     ]
   },
@@ -184,12 +196,28 @@ export const workExperiences = [
         logo: 'python'
       },
       {
-        name: 'Django',
-        logo: 'django'
+        name: 'HTML',
+        logo: 'html'
       },
       {
-        name: 'Django Rest Framework',
-        logo: 'djangorestframework'
+        name: 'CSS',
+        logo: 'css'
+      },
+      {
+        name: 'Javascript',
+        logo: 'javascript'
+      },
+      {
+        name: 'Heroku',
+        logo: 'heroku'
+      },
+      {
+        name: 'JQuery',
+        logo: 'jquery'
+      },
+      {
+        name: 'Django',
+        logo: 'django'
       },
       {
         name: 'PostgreSQL',
@@ -206,6 +234,10 @@ export const workExperiences = [
       {
         name: 'Github',
         logo: 'github'
+      },
+      {
+        name: 'VC Code',
+        logo: 'vscode'
       }
     ]
   },
@@ -229,12 +261,40 @@ export const workExperiences = [
         logo: 'python'
       },
       {
+        name: 'Anaconda',
+        logo: 'anaconda'
+      },
+      {
+        name: 'Numpy',
+        logo: 'numpy'
+      },
+      {
+        name: 'Pandas',
+        logo: 'pandas'
+      },
+      {
+        name: 'OpenCV',
+        logo: 'opencv'
+      },
+      {
+        name: 'Python',
+        logo: 'python'
+      },
+      {
         name: 'Flask',
         logo: 'flask'
       },
       {
+        name: 'Sqlite3',
+        logo: 'sqlite'
+      },
+      {
         name: 'Tensorflow',
         logo: 'tensorflow'
+      },
+      {
+        name: 'Pytorch',
+        logo: 'pytorch'
       },
       {
         name: 'AWS',
@@ -247,6 +307,10 @@ export const workExperiences = [
       {
         name: 'Github',
         logo: 'github'
+      },
+      {
+        name: 'VC Code',
+        logo: 'vscode'
       }
     ]
   }

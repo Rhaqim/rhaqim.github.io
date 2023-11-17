@@ -7,7 +7,7 @@ type WorkItemProps = {
   logo: string
   website: string
   responsibilities: string[]
-  toolkits: { name: string; icon: string }[]
+  toolkits: { name: string; logo: string }[]
 }
 
 const WorkItem: React.FC<WorkItemProps> = ({
