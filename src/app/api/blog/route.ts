@@ -24,12 +24,6 @@
 //     };
 // }
 
-interface Blog {
-  id: string
-  title: string
-  excerpt: string
-}
-
 export async function GET(request: Request) {
   const { pathname } = new URL(request.url)
   const url = pathname.split('/api/blog/')[1].split('/')
@@ -45,9 +39,8 @@ export async function GET(request: Request) {
   if (res.ok) {
     const post = posts.find((post: any) => post.slug === slug)
     if (post) {
-      const body = JSON.stringify(post) as unknown as Blog
       return {
-        body
+        body: JSON.stringify(post)
       }
     }
     return {
