@@ -10,9 +10,11 @@ import MenuButton from './MenuButton'
 import LinkItem from './LinkItems'
 
 const navItems = [
-  { href: '/', label: 'Home' },
+  { href: '#about', label: 'About Me' },
+  { href: '#experience', label: 'Work' },
+  { href: '#projects', label: 'Projects'},
   { href: '/blog', label: 'Blog' },
-  { href: '/contact', label: 'Contact' }
+  { href: '#contact', label: 'Contact' }
 ]
 
 const Navbar = () => {
