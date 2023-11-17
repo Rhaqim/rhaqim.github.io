@@ -52,10 +52,7 @@ export const workExperiences = [
         name: 'Oracle',
         logo: 'oracle'
       },
-      {
-        name: 'Elasticsearch',
-        logo: 'elasticsearch'
-      },
+
       {
         name: 'Kubernetes',
         logo: 'kubernetes'
@@ -63,6 +60,10 @@ export const workExperiences = [
       {
         name: 'Jira',
         logo: 'jira'
+      },
+      {
+        name: 'Elastic Search',
+        logo: 'elasticsearch'
       },
       {
         name: 'Git',
