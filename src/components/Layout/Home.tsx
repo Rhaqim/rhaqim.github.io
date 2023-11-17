@@ -16,10 +16,14 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <main
-      className={` flex justify-center ${theme === 'light' ? 'bg-base text-base' : 'bg-dark text-dark'}`}
+      className={` flex justify-center ${
+        theme === 'light' ? 'bg-base text-base' : 'bg-dark text-dark'
+      }`}
     >
-      <div className="w-full md:w-1/2 p-2">
-        <Navbar />
+      <div className="w-full md:w-1/2 overflow-hidden">
+        <div className='fixed top-0 left-0 z-10 backdrop-blur-lg w-full'>
+          <Navbar />
+        </div>
         <motion.article
           initial="hidden"
           animate="enter"
@@ -27,7 +31,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
           variants={variants}
           transition={{ duration: 0.7, type: 'easeInOut' }}
           style={{ position: 'relative' }}
-          className="flex flex-col min-h-screen w-full justify-start py-2"
+          className="flex flex-col min-h-screen w-full justify-start py-4 my-4"
         >
           {children}
         </motion.article>

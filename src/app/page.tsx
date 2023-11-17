@@ -12,8 +12,8 @@ const inter = Inter({
 
 export default function Home() {
   return (
-    <>
-      <div className="h-[70px] flex items-center mb-4">
+    <div>
+      <div className="h-[70px] flex items-center mt-4">
         <h3
           className={`font-[400px] text-[26px] leading-[28px] ${inter.className}`}
         >
@@ -25,12 +25,13 @@ export default function Home() {
           delay={0.2}
           title="About Me"
           description="Software developer based in Lagos, Nigeria."
+          id="about"
         >
           <p>
             Hey there, I'm Anusiem John-Franklin better known as Rhaqim, I am
             passionate full-stack developer with a knack for crafting robust
-            APIs, streamlining DevOps processes and all round development.
-            I've honed my skills in leading teams, deciphering complex business
+            APIs, streamlining DevOps processes and all round development. I've
+            honed my skills in leading teams, deciphering complex business
             requirements, and consistently delivering projects on time.
           </p>
 
@@ -53,15 +54,16 @@ export default function Home() {
             fresh skills to broaden my perspective.
           </p>
           <p>
-            Always ready to contribute my skills to a challenging role in an innovative
-            organization, I thrive in dynamic environments. Let's build
-            something awesome together!
+            Always ready to contribute my skills to a challenging role in an
+            innovative organization, I thrive in dynamic environments. Let's
+            build something awesome together!
           </p>
         </Section>
         <Section
           delay={0.4}
           title="Experience"
           description="I owe a lot of my experince to these companies"
+          id="experience"
         >
           {workExperiences.map((experience, index) => (
             <WorkItem key={index} {...experience} />
@@ -71,19 +73,13 @@ export default function Home() {
           delay={0.6}
           title="Projects"
           description="When I'm not working on client projects, I'm working on my own"
+          id="projects"
         >
           {personalProjects.map((project, index) => (
             <Projects key={index} {...project} />
           ))}
         </Section>
-        <Section
-          delay={0.8}
-          title="Contact"
-          description="I'm a software engineer based in Nigeria."
-        >
-          <p className="">I'm a software engineer based in Nigeria.</p>
-        </Section>
       </div>
-    </>
+    </div>
   )
 }

@@ -9,12 +9,14 @@ const Section = ({
   title,
   description,
   delay,
+  id,
   children
 }: {
   title: string
   description: string
-  children: ReactNode
   delay: number
+  id: string
+  children: ReactNode
 }) => {
   const sectionRef = useRef<HTMLDivElement>(null)
   const isVisible = useVisibility(sectionRef)
@@ -24,11 +26,12 @@ const Section = ({
   return (
     <motion.section
       ref={sectionRef}
+      id={id}
       initial={{ opacity: 0, y: 10 }}
       animate={isVisible ? { opacity: 1, y: 0 } : {}}
       exit={{ opacity: 0, y: -10 }}
       transition={{ duration: 0.8, delay: isVisible ? 0 : delay }}
-      className="flex flex-col items-center justify-start w-full px-5 min-h-screen section-container"
+      className="flex flex-col items-center justify-start w-full p-5 min-h-screen section-container"
     >
       <div className="flex flex-col md:flex-row md:justify-between space-y-2 w-full mb-[2rem] p-2 h-[100px] items-center">
         <motion.div
