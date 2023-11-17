@@ -31,7 +31,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
           variants={variants}
           transition={{ duration: 0.7, type: 'easeInOut' }}
           style={{ position: 'relative' }}
-          className="flex flex-col min-h-screen w-full justify-start py-4 my-4"
+          className="flex flex-col min-h-screen w-full justify-start py-4 my-4 mt-8"
         >
           {children}
         </motion.article>
