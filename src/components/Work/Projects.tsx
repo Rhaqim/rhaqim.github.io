@@ -4,6 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import Toolkits from './Toolkit'
 import { ArrowLineUpRight } from '@phosphor-icons/react'
+import PortfolioImage from '../PortfolioImageProps'
 
 type ProjectProps = {
   title: string
@@ -12,7 +13,7 @@ type ProjectProps = {
   github: string
   tags: string[]
   toolkits: { name: string; logo: string }[]
-  images: string[]
+  images: { src: string; alt: string }[] | []
 }
 
 const Projects: React.FC<ProjectProps> = ({
@@ -21,8 +22,8 @@ const Projects: React.FC<ProjectProps> = ({
   link,
   github,
   tags,
-  toolkits
-  //   images
+  toolkits,
+  images
 }) => {
   return (
     <div className="flex flex-col items-start justify-center w-full my-4">
@@ -40,6 +41,11 @@ const Projects: React.FC<ProjectProps> = ({
           </span>
         ))}
       </div> */}
+      <div className="grid grid-cols-2 gap-4">
+        {images.map((item, index) => (
+          <PortfolioImage key={index} {...item} />
+        ))}
+      </div>
       <div className="flex flex-wrap justify-center">
         {tags.map((tag, index) => (
           <span

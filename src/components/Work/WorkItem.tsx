@@ -18,7 +18,7 @@ const WorkItem: React.FC<WorkItemProps> = ({
   toolkits
 }) => {
   return (
-    <div className="flex flex-col md:flex-row items-start justify-between">
+    <div className="flex flex-col md:flex-row items-start justify-between my-4">
       <div className="mr-4 w-full md:w-[30%] flex flex-col space-y-4">
         <a href={website} target="_blank" rel="noopener noreferrer">
           <Image

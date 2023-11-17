@@ -44,7 +44,7 @@ export const personalProjects = [
         logo: 'vscode'
       }
     ],
-    images: ['portfolio']
+    images: []
   },
   {
     title: 'The Commune',
@@ -91,7 +91,7 @@ export const personalProjects = [
         logo: 'vscode'
       }
     ],
-    images: ['portfolio']
+    images: []
   },
   {
     title: 'The Commune Backend',
@@ -122,7 +122,7 @@ export const personalProjects = [
         logo: 'vscode'
       }
     ],
-    images: ['portfolio']
+    images: []
   },
   {
     title: 'Document Analyzer',
@@ -169,7 +169,7 @@ export const personalProjects = [
         logo: 'vscode'
       }
     ],
-    images: ['portfolio']
+    images: []
   },
   {
     title: 'Ethereum Node Tester CLI',
@@ -188,6 +188,10 @@ export const personalProjects = [
         logo: 'linux'
       },
       {
+        name: 'Bash',
+        logo: 'bash'
+      },
+      {
         name: 'Solidity',
         logo: 'solidity'
       },
@@ -204,6 +208,6 @@ export const personalProjects = [
         logo: 'vscode'
       }
     ],
-    images: ['portfolio']
+    images: []
   }
 ]
