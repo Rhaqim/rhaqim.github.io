@@ -2,7 +2,7 @@ export const workExperiences = [
   {
     company: 'Nirvana Labs',
     logo: 'nirvana',
-    website: 'https://example.com',
+    website: 'https://nirvanalabs.io/',
     responsibilities: [
       'Led the creation of an NFT Indexer in Rust for improved performance.',
       'Implemented optimisation strategies to enhance application efficiency.',
@@ -18,12 +18,62 @@ export const workExperiences = [
       'Provided technical expertise for seamless frontend-backend integration.',
       'Led frontend development for an intuitive user interface.',
       'Successfully integrated APIs for smooth communication between frontend and backend systems.'
+    ],
+    tolkits: [
+      {
+        name: 'Rust',
+        logo: 'rust'
+      },
+      {
+        name: 'TypeScript',
+        logo: 'typescript'
+      },
+      {
+        name: 'Node.js',
+        logo: 'nodejs'
+      },
+      {
+        name: 'React',
+        logo: 'react'
+      },
+      {
+        name: 'Next.js',
+        logo: 'nextjs'
+      },
+      {
+        name: 'PostgreSQL',
+        logo: 'postgresql'
+      },
+      {
+        name: 'Oracle',
+        logo: 'oracle'
+      },
+      {
+        name: 'Elasticsearch',
+        logo: 'elasticsearch'
+      },
+      {
+        name: 'Kubernetes',
+        logo: 'kubernetes'
+      },
+      {
+        name: 'Git',
+        logo: 'git'
+      },
+      {
+        name: 'Github',
+        logo: 'github'
+      },
+      {
+        name: 'Jira',
+        logo: 'jira'
+      }
     ]
   },
   {
     company: 'Equity Group Holdings Limited',
     logo: 'equity',
-    website: 'https://example.com',
+    website: 'https://equitygroupholdings.com/',
     responsibilities: [
       'Led a team in developing and maintaining critical Loan products for the USSD Service.',
       'Quickly grasped the architecture and codebase, providing immediate support to the USSD team.',
@@ -36,22 +86,87 @@ export const workExperiences = [
       'Identified and resolved bugs, ensuring seamless user journeys and expected application behaviour.',
       'Managed Azure pipeline deployment and Dockerized a service layer for streamlined development.',
       'Leveraged Redis Database and Kubernetes for performance enhancement and operational efficiency.'
+    ],
+    toolkits: [
+      {
+        name: 'Python',
+        logo: 'python'
+      },
+      {
+        name: 'Django',
+        logo: 'django'
+      },
+      {
+        name: 'FastAPI',
+        logo: 'fastapi'
+      },
+      {
+        name: 'MySQL',
+        logo: 'mysql'
+      },
+      {
+        name: 'Redis',
+        logo: 'redis'
+      },
+      {
+        name: 'Docker',
+        logo: 'docker'
+      },
+      {
+        name: 'Kubernetes',
+        logo: 'kubernetes'
+      },
+      {
+        name: 'Azure',
+        logo: 'azure'
+      },
+      {
+        name: 'Azure DevOps',
+        logo: 'azuredevops'
+      },
+      {
+        name: 'Git',
+        logo: 'git'
+      },
+      {
+        name: 'Github',
+        logo: 'github'
+      }
     ]
   },
   {
     company: 'Azenia Limited',
     logo: 'azenia',
-    website: 'https://example.com',
+    website: 'https://azenia.com/',
     responsibilities: [
       'Developed and maintained backend systems.',
       'Collaborated with cross-functional teams.',
       'Implemented new features and improvements.'
+    ],
+    toolkits: [
+      {
+        name: 'Python',
+        logo: 'python'
+      },
+      {
+        name: 'Django',
+        logo: 'django'
+      },
+      {
+        name: 'Git',
+        logo: 'git'
+      },
+      {
+        name: 'Github',
+        logo: 'github'
+      }
     ]
   },
   {
     company: 'Upwork',
     logo: 'upwork',
-    website: 'https://example.com',
+    website:
+      'https://www.upwork.com/freelancers/~01aa138c363eb84a19?viewMode=1',
     responsibilities: [
       'Developed and maintained backend systems.',
       'Implemented new features and improvements.',
@@ -62,12 +177,42 @@ export const workExperiences = [
 
       ' Compiled comprehensive documentation for APIs, enhancing clarity and usability for bothdevelopment and integration',
       ' Applied expertise in data visualisation to work on visual representations using Dash, providingmeaningful insights'
+    ],
+    toolkits: [
+      {
+        name: 'Python',
+        logo: 'python'
+      },
+      {
+        name: 'Django',
+        logo: 'django'
+      },
+      {
+        name: 'Django Rest Framework',
+        logo: 'djangorestframework'
+      },
+      {
+        name: 'PostgreSQL',
+        logo: 'postgresql'
+      },
+      {
+        name: 'Sqlite3',
+        logo: 'sqlite'
+      },
+      {
+        name: 'Git',
+        logo: 'git'
+      },
+      {
+        name: 'Github',
+        logo: 'github'
+      }
     ]
   },
   {
     company: 'Univelcity',
     logo: 'univelcity',
-    website: 'https://example.com',
+    website: 'https://univelcity.com/',
     responsibilities: [
       'Retrieved Lagos weather information utilising the Open Weather API, demonstrating practical APIintegration skills',
       'Developed a prototype Bank app using pure Python, showcasing programming proficiency in apractical application',
@@ -77,6 +222,32 @@ export const workExperiences = [
       'Participated in the AWS DeepRacer competition, securing a commendable 32nd position, highlightingcompetitive spirit and skills',
       'Implemented volume adjustment using Mediapipe and hand gestures, showcasing innovativeapplication of technology',
       'Deployed a machine learning model using Flask, demonstrating practical deployment skills in a real-world scenario'
+    ],
+    toolkits: [
+      {
+        name: 'Python',
+        logo: 'python'
+      },
+      {
+        name: 'Flask',
+        logo: 'flask'
+      },
+      {
+        name: 'Tensorflow',
+        logo: 'tensorflow'
+      },
+      {
+        name: 'AWS',
+        logo: 'aws'
+      },
+      {
+        name: 'Git',
+        logo: 'git'
+      },
+      {
+        name: 'Github',
+        logo: 'github'
+      }
     ]
   }
 ]

@@ -1,18 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
+import Toolkits from './Toolkit'
 
 type WorkItemProps = {
   company: string
   logo: string
   website: string
   responsibilities: string[]
+  toolkits: { name: string; icon: string }[]
 }
 
 const WorkItem: React.FC<WorkItemProps> = ({
   company,
   logo,
   website,
-  responsibilities
+  responsibilities,
+  toolkits
 }) => {
   return (
     <div className="flex flex-col md:flex-row items-start justify-between">
@@ -24,7 +27,7 @@ const WorkItem: React.FC<WorkItemProps> = ({
             width={180}
             height={200}
             className="w-full h-1/2 object-contain cursor-pointer grid-item-thumbnail"
-            blurDataURL='/images/blur/blur-red.png'
+            blurDataURL="/images/blur/blur-red.png"
             placeholder="blur"
           />
         </a>
@@ -33,8 +36,11 @@ const WorkItem: React.FC<WorkItemProps> = ({
             {company}
           </a>
         </p>
+        <div className="mt-2">
+          <Toolkits toolkits={toolkits} />
+        </div>
       </div>
-      <ul className='w-full md:w-[70%]'>
+      <ul className="w-full md:w-[70%]">
         {responsibilities.map((task, index) => (
           <li key={index} className="list-disc ml-4">
             {task}
