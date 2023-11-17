@@ -1,4 +1,3 @@
-import ProgLogos from '@/components/ProgLogos'
 import Section from '@/components/Section'
 import { Inter } from 'next/font/google'
 import { workExperiences } from '@/constant/WorkExperience'
@@ -26,42 +25,35 @@ export default function Home() {
           description="I'm a software engineer based in Lagos, Nigeria."
         >
           <p>
-            Passionate full stack developer with a diverse skill set
-            encompassing backend technologies, frontend technologies, and
-            database management. I have a strong foundation in languages like;
+            Hey there, I'm Anusiem John-Franklin better known as Rhaqim, I am
+            passionate full-stack developer with a knack for crafting robust
+            APIs, streamlining DevOps processes and all round development.
+            I've honed my skills in leading teams, deciphering complex business
+            requirements, and consistently delivering projects on time.
           </p>
-          <ul className="my-2">
-            <li className="flex flex-row space-x-2 w-full items-center my-4">
-              <ProgLogos lang="java-script" /> <div>JavaScript</div>
-            </li>
-            <li className="flex flex-row space-x-2 w-full items-center my-4">
-              <ProgLogos lang="python" /> <div>Python</div>
-            </li>
-            <li className="flex flex-row space-x-2 w-full items-center my-4">
-              <ProgLogos lang="go" /> <div>Golang</div>
-            </li>
-            <li className="flex flex-row space-x-2 w-full items-center my-4">
-              {' '}
-              <ProgLogos lang="rust" /> <div>Rust</div>
-            </li>
-          </ul>
+
           <p>
-            My expertise lies in crafting robust APIs, streamlining DevOps
-            processes, and exploring the exciting realm of machine learning.
-            Over the years, I've honed my abilities to lead teams, decipher
-            intricate business requirements, and consistently deliver projects
-            on time. I thrive in dynamic environments and am eager to contribute
-            my skills to a challenging role in an innovative organization.
+            In my journey, I've ventured into a lot of exciting fields in tech
+            from machine learning, to backend development, frontend development,
+            database management and a little bit of devops. I've worked with a
+            lot of technologies, but I'm most comfortable with JavaScript,
+            TypeScript, Python, Golang, and Rust. I'm also proficient with
+            frameworks like React, Next.js, Django, and FastAPI. I'm always
+            looking to learn new things and I'm currently exploring the world of
+            assembly programming.
           </p>
           <p>
-            When I'm not immersed in the world of code, you'll find me pursuing
-            my hobbies. I have a deep passion for gaming, where I explore
-            virtual worlds and engage in strategic challenges. Exploring new
-            restaurants is another avenue where I find joy, savoring different
-            cuisines and experiencing diverse culinary cultures. Additionally, I
-            have an insatiable curiosity for learning new things, whether it's
-            delving into emerging technologies, diving into a new book, or
-            acquiring fresh skills to broaden my perspective.
+            Outside of coding, I love being immersed in gaming, exploring
+            virtual worlds and tackling strategic challenges. I'm also a food
+            enthusiast, always on the lookout for new culinary experiences and
+            diverse cuisines. Fueling my insatiable curiosity, I love diving
+            into emerging technologies, picking up new books, and acquiring
+            fresh skills to broaden my perspective.
+          </p>
+          <p>
+            Always ready to contribute my skills to a challenging role in an innovative
+            organization, I thrive in dynamic environments. Let's build
+            something awesome together!
           </p>
         </Section>
         <Section
