@@ -1,7 +1,9 @@
 import Section from '@/components/Section'
 import { Inter } from 'next/font/google'
 import { workExperiences } from '@/constant/WorkExperience'
+import { personalProjects } from '@/constant/PersonalProjects'
 import WorkItem from '@/components/Work/WorkItem'
+import Projects from '@/components/Work/Projects'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -15,14 +17,14 @@ export default function Home() {
         <h3
           className={`font-[400px] text-[26px] leading-[28px] ${inter.className}`}
         >
-          Welcome, I'm Rhaqim.
+          Meet Rhaqim.
         </h3>
       </div>
       <div className="h-full w-full">
         <Section
           delay={0.2}
           title="About Me"
-          description="I'm a software engineer based in Lagos, Nigeria."
+          description="Software developer based in Lagos, Nigeria."
         >
           <p>
             Hey there, I'm Anusiem John-Franklin better known as Rhaqim, I am
@@ -70,7 +72,9 @@ export default function Home() {
           title="Projects"
           description="When I'm not working on client projects, I'm working on my own"
         >
-          <p className="">I'm a software engineer based in Nigeria.</p>
+          {personalProjects.map((project, index) => (
+            <Projects key={index} {...project} />
+          ))}
         </Section>
         <Section
           delay={0.8}

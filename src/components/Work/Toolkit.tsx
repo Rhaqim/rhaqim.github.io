@@ -17,12 +17,14 @@ const ToolkitBadge = ({ name, logo }: { name: string; logo: string }) => (
 )
 
 const Toolkits = ({
-  toolkits
+  toolkits,
+  className = 'grid grid-cols-2 gap-4'
 }: {
   toolkits: { name: string; logo: string }[]
+  className?: string
 }) => {
   return (
-    <div className="grid grid-cols-2 gap-4">
+    <div className={className}>
       {toolkits.map((toolkit, index) => (
         <ToolkitBadge key={index} name={toolkit.name} logo={toolkit.logo} />
       ))}
