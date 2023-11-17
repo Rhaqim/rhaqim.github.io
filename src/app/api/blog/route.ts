@@ -36,20 +36,5 @@ export async function GET(request: Request) {
   )
   const posts = await res.json()
 
-  if (res.ok) {
-    const post = posts.find((post: any) => post.slug === slug)
-    if (post) {
-      return {
-        body: JSON.stringify(post)
-      }
-    }
-    return {
-      status: 404,
-      body: JSON.stringify({ message: 'Not found' })
-    }
-  }
-  return {
-    status: res.status,
-    body: JSON.stringify({ message: 'Not found' })
-  }
+  return Response.json({posts, slug})
 }
