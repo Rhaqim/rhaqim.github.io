@@ -13,8 +13,14 @@ const navItems = [
   // { href: '#about', label: 'About Me' },
   // { href: '#experience', label: 'Work' },
   // { href: '#projects', label: 'Projects'},
-  { href: '/blog', label: 'Blog' },
+  { href: '/blog', label: 'Blog' }
   // { href: '#contact', label: 'Contact' }
+]
+
+const navItemsMobile = [
+  { href: '/', label: 'Home' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/contact', label: 'Contact' }
 ]
 
 const Navbar = () => {
@@ -37,18 +43,25 @@ const Navbar = () => {
       </div>
       <div className="flex space-x-2 items-center">
         <ThemeToggleButton theme={theme} toggleTheme={toggleTheme} />
-        <div className="block md:hidden">
+        <div className="block md:hidden z-10">
           <MenuButton icon={<Hamburger />} onClick={toggleMobileMenu} />
         </div>
       </div>
 
       <div
-        className={`${
-          isMobileMenuOpen ? 'block' : 'hidden'
-        } absolute top-0 right-0 md:hidden`}
+        className={
+          isMobileMenuOpen
+            ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center w-full min-h-screen bg-black text-center text-dark ease-in duration-300'
+            : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex flex-col justify-center items-center w-full min-h-screen bg-black text-center text-dark ease-in duration-300'
+        }
       >
-        {navItems.map((item, index) => (
-          <LinkItem key={index} href={item.href} path={currentPath}>
+        {navItemsMobile.map((item, index) => (
+          <LinkItem
+            key={index}
+            href={item.href}
+            path={currentPath}
+            toggleNav={toggleMobileMenu}
+          >
             <p>{item.label}</p>
           </LinkItem>
         ))}

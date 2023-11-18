@@ -8,9 +8,15 @@ type LinkItemProps = {
   children: React.ReactNode
   href: string
   path: string
+  toggleNav?: () => void
 }
 
-const LinkItem: React.FC<LinkItemProps> = ({ children, href, path }) => {
+const LinkItem: React.FC<LinkItemProps> = ({
+  children,
+  href,
+  path,
+  toggleNav
+}) => {
   const [active, setActive] = useState(false)
 
   useEffect(() => {
@@ -21,6 +27,7 @@ const LinkItem: React.FC<LinkItemProps> = ({ children, href, path }) => {
   return (
     <Link href={href}>
       <LinkButton
+        onClick={toggleNav}
         p={2}
         bg={active ? 'purple-200' : undefined}
         color={active ? '[#202023]' : inActiveColor}

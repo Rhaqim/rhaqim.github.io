@@ -9,7 +9,7 @@ const Logo = ({ theme }: { theme: string }) => {
   return (
     <Link
       href={'/'}
-      className="inline-flex items-center p-[10px] leading-5 h-[30px]"
+      className="inline-flex items-center p-[10px] leading-5 h-[30px] z-10"
     >
       {/* <Image
         src={footPrintImg}
