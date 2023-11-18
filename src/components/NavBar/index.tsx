@@ -51,8 +51,8 @@ const Navbar = () => {
       <div
         className={
           isMobileMenuOpen
-            ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center w-full min-h-screen bg-black text-center ease-in duration-300'
-            : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex flex-col justify-center items-center w-full min-h-screen bg-black text-center ease-in duration-300'
+            ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center w-full min-h-screen bg-black text-center text-dark ease-in duration-300'
+            : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex flex-col justify-center items-center w-full min-h-screen bg-black text-center text-dark ease-in duration-300'
         }
       >
         {navItemsMobile.map((item, index) => (
