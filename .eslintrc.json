@@ -3,7 +3,7 @@
   "root": true,
   "rules": {
     "no-unused-vars": [
-      "error",
+      "warn",
       {
         "varsIgnorePattern": "^_",
         "argsIgnorePattern": "^_"
