@@ -4,6 +4,7 @@ import { workExperiences } from '@/constant/WorkExperience'
 import { personalProjects } from '@/constant/PersonalProjects'
 import WorkItem from '@/components/Work/WorkItem'
 import Projects from '@/components/Work/Projects'
+import LogoModel from '@/components/Model/Logo'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -19,6 +20,9 @@ export default function Home() {
         >
           Meet Rhaqim.
         </h3>
+        <div className='w-[8%] h-[90px]'>
+          <LogoModel />
+        </div>
       </div>
       <div className="h-full w-full">
         <Section
@@ -28,7 +32,7 @@ export default function Home() {
           id="about"
         >
           <p>
-            Hey there, I'm Anusiem John-Franklin better known as Rhaqim, I am
+            Hey there, I'm Rhaqim, I am
             passionate full-stack developer with a knack for crafting robust
             APIs, streamlining DevOps processes and all round development. I've
             honed my skills in leading teams, deciphering complex business

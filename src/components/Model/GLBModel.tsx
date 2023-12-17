@@ -15,7 +15,7 @@ const GLBModel = () => {
   const rod2 = materials["Metal03.002"] as MeshStandardMaterial
   const rod3 = materials["Metal03.003"] as MeshStandardMaterial
 
-  rodCenter.color = new Color(50.5, 76.5, 0.5)
+  rodCenter.color = new Color(0.5, 0.5, 0.5)
     rod1.color = new Color(0.5, 0.5, 0.5)
     rod2.color = new Color(0.5, 0.5, 0.5)
     rod3.color = new Color(0.5, 0.5, 0.5)

@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import LogoModel from '@/components/Model/Logo'
 // import Link from 'next/link'
 
 // interface Blog {
@@ -21,7 +20,6 @@ const BlogList = () => {
       <h2 className="text-2xl font-bold mb-4">Latest Blogs</h2>
       <ul>
         <h3>Upcoming...</h3>
-        <LogoModel />
         {/* {blogs.map(blog => (
           <li key={blog.id} className="mb-4">
             <Link href={`/blog/${blog.id}`}>
