@@ -32,6 +32,45 @@ export const personalProjects = [
         logo: 'css'
       },
       {
+        name: 'Three.js',
+        logo: 'threejs'
+      },
+      {
+        name: 'Git',
+        logo: 'git'
+      },
+      {
+        name: 'Github',
+        logo: 'github'
+      },
+      {
+        name: 'VC Code',
+        logo: 'vscode'
+      }
+    ],
+    images: []
+  },
+  {
+    title: 'Jobs We Want',
+    description:
+      'A helpful extension for tracking jobs you want to or have applied to.',
+    link: null,
+    github: 'https://github.com/Rhaqim/jobs_we_want',
+    tags: ['Jobs', 'Metrics', 'Tracker', 'Extension'],
+    toolkits: [
+      {
+        name: 'JavaScript',
+        logo: 'javascript'
+      },
+      {
+        name: 'HTML',
+        logo: 'html'
+      },
+      {
+        name: 'CSS',
+        logo: 'css'
+      },
+      {
         name: 'Git',
         logo: 'git'
       },
